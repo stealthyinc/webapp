@@ -1,0 +1,24 @@
+/* Commented out as this doesn't appear to be applicable anymore. */
+/* .BlockPage {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  height: 400px;
+  width: 600px;
+  margin: .5em;
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+}
+
+.BlockPage .MessageList {
+  box-sizing: border-box;
+  flex: 1;
+}
+
+.BlockPage .MessageForm {
+  background: #eee;
+  border-top: 1px solid #ccc;
+  border-radius: 0 0 3px 3px;
+  box-sizing: border-box;
+  flex: 0 0 30px;
+} */

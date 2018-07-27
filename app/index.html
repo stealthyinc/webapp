@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- The first thing in any HTML file should be the charset -->
+    <meta charset="utf-8">
+
+    <!-- Make the page mobile compatible -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <!-- iOS home screen icons -->
+    <meta name="apple-mobile-web-app-title" content="stealthy im">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://www.stealthy.im/blue256.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://www.stealthy.im/blue256.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="https://www.stealthy.im/blue256.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.stealthy.im/blue256.png">
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+    <link rel="icon" href="https://www.stealthy.im/favicon.ico">
+    <link rel="shortcut icon" href="https://www.stealthy.im/favicon.ico">
+    <title>Stealthy</title>
+    <meta name="application-name" content="Stealthy">
+    <meta property="og:title" content="Stealthy">
+    <meta name="description" content="A fully decentralized & encrypted P2P communication platform on Blockstack.">
+    <meta property="og:image" content="https://www.stealthy.im/blue256.png">
+    <meta name="robots" content="index,follow"><!-- All Search Engines -->
+    <meta name="googlebot" content="index,follow"><!-- Google Specific -->
+    <meta name="subject" content="Stealthy P2P Chat">
+    <meta name="rating" content="General">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.stealthy.im" />
+    <meta name="twitter:site" content="@stealthyim" />
+    <meta name="twitter:title" content="Stealthy" />
+    <meta name="twitter:description" content="A fully decentralized & encrypted P2P communication platform on Blockstack." />
+    <meta name="twitter:image" content="https://www.stealthy.im/homePage.png" />
+    <link rel="canonical" href="https://www.stealthy.im">
+    <link rel="author" href="Stealthy">
+    <link rel="index" href="https://www.stealthy.im">
+  </head>
+  <body>
+    <!-- Display a message if JS has been disabled on the browser. -->
+    <noscript>If you're seeing this message, that means <strong>JavaScript has been disabled on your browser</strong>, please <strong>enable JS</strong> to make this app work.</noscript>
+    <!-- Semantic UI CSS -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
+    <!-- The app hooks into this div -->
+    <div id="app"></div>
+    <!-- Open Sans Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically includes all assets (e.g. bundle.js, main.css) with the correct HTML tags, which is why they are missing in this HTML file. Don't add any assets here! (Check out the webpack config files in internals/webpack for details) -->
+  </body>
+</html>
