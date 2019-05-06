@@ -1,3 +1,3 @@
 # website
 
-Learn More: https://www.stealthy.im
+Learn More: https://www.web.stealthy.im
